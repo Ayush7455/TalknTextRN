@@ -1,0 +1,31 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-talkntextrn-staging-223352-authRole",
+      "UnauthRoleArn": "arn:aws:iam::769559285440:role/amplify-talkntextrn-staging-223352-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::769559285440:role/amplify-talkntextrn-staging-223352-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-talkntextrn-staging-223352-deployment",
+      "UnauthRoleName": "amplify-talkntextrn-staging-223352-unauthRole",
+      "StackName": "amplify-talkntextrn-staging-223352",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:769559285440:stack/amplify-talkntextrn-staging-223352/dafa7bf0-95ed-11ed-9694-0e0a315ff731",
+      "AmplifyAppId": "d2qtdhprf2hg91",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-talkntextrn-staging-223352-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "TalknText": {},
+        "TalknTextRN": {}
+      },
+      "function": {
+        "TalknTextRNPostConfirmation": {
+          "deploymentBucketName": "amplify-talkntextrn-staging-223352-deployment",
+          "s3Key": "amplify-builds/TalknTextRNPostConfirmation-3067793358382b30796a-build.zip"
+        }
+      },
+      "api": {
+        "TalknTextRN": {}
+      }
+    }
+  }
+}
